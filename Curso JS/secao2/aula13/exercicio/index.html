@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios - Aula 13</title>
+</head>
+<body>
+    <script>
+        const nome = prompt('Digite seu nome completo: ');
+        const nomeEsposa = prompt('Digite o nome de sua Esposa: ');
+        const nomeFilho = prompt('Digite o nome de seu filho: ');
+        // Exibir o nome do usuário.
+        document.body.innerHTML += `O seu nome é: <Strong>${nome}</Strong>.<br />`;
+        document.body.innerHTML += `O nome da sua esposa é: <Strong>${nomeEsposa}</Strong>.<br/>`;
+        document.body.innerHTML += `O nome do(a) filho(a) é: <Strong>${nomeFilho}</Strong>.<br/><br/>`;
+        // Exibir a quantidade de letras e espaços do objeto.
+        document.body.innerHTML += `O seu nome tem <Strong>${nome.length}</Strong> letras. <br />`;
+        document.body.innerHTML += `O nome da sua esposa tem <Strong>${nomeEsposa.length}</Strong>.<br/>`;
+        document.body.innerHTML += `O nome do(a) filho(a) tem <Strong>${nomeFilho.length}</Strong>.<br/><br/>`;
+       // Exibir a segunda letra de uma string.
+        document.body.innerHTML += `A segunda letra do seu nome é: <Strong>${nome[1]}</Strong>.<br />`;
+        document.body.innerHTML += `A segunda letra do nome da sua esposa é: <Strong>${nomeEsposa[1]}</Strong>.<br/>`;
+        document.body.innerHTML += `A segunda letra do nome do(a) filho(a) é: <Strong>${nomeFilho[1]}</Strong>.<br/><br/>`;
+        // Exibir a primeira posição de uma determinada letra.
+        document.body.innerHTML += `A primeira posição da letra "a" do seu nome é: <Strong>${nome.indexOf('a')}</Strong>.<br />`;
+        document.body.innerHTML += `A primeira posição da letra "a" do nome da sua esposa é: <Strong>${nomeEsposa.indexOf('a')}</Strong>.<br/>`;
+        document.body.innerHTML += `A primeira posição da letra "a" do nome do(a) filho(a) é: <Strong>${nomeFilho.indexOf('a')}</Strong>.<br/><br/> `;
+        // Exibir a última posição de uma determinada letra do nome do usuário.
+        document.body.innerHTML += `A última posição da letra "a" do seu nome é: <Strong>${nome.lastIndexOf('a')}</Strong>.<br />`;
+        document.body.innerHTML += `A última posição da letra "a" no nome da sua esposa é: <Strong>${nome.lastIndexOf('a')}</Strong>.<br/>`;
+        document.body.innerHTML += `A última posição da letra "a" no nome do(a) filho(a) é: <Strong>${nomeFilho.lastIndexOf('a')}</Strong>.<br/><br/>`;
+        // Exibir as últimas 3 letras do nome do usuário.
+        document.body.innerHTML += `As últimas 3 letras do seu nome são: <Strong>${nome.slice(-3)}</Strong>.<br/>`;
+        document.body.innerHTML += `As últimas 3 letras do nome da sua esposa são: <Strong>${nomeEsposa.slice(-3)}</Strong>.<br/>`;
+        document.body.innerHTML += `As últimas 3 letras do nome do(a) filho(a) são: <Strong>${nomeFilho.slice(-3)}</Strong>.<br/><br/>`;
+        // Exibir o nome do usuário em palavras.
+        document.body.innerHTML += `As palavras do seu nome são: <Strong>${nome.split(' ')}</Strong>.<br/>`;
+        document.body.innerHTML += `As palavras do nome da sua esposa são: <Strong>${nomeEsposa.split(' ')}</Strong>.<br/>`;
+        document.body.innerHTML += `As palavras do nome do(a) filho(a) são: <Strong>${nomeFilho.split(' ')}</Strong>.<br/><br/>`;
+       // Exibir o nome do usuário em letras maiúlculas.
+        document.body.innerHTML += `Seu nome com letras maiúlculas: <Strong>${nome.toUpperCase()}</Strong>.<br/>`;
+        document.body.innerHTML += `O nome da sua esposa com letras maiúlculas: <Strong>${nomeEsposa.toUpperCase()}</Strong>.<br/>`;
+        document.body.innerHTML += `O nome do(a) filho(a) com letras maiúlculas: <Strong>${nomeFilho.toUpperCase()}</Strong>.<br/><br/>`;
+       // Exibir o nome do usuário em letras ninúsculas.
+        document.body.innerHTML += `O seu nome com letras minúsculas: <Strong>${nome.toLowerCase()}</Strong>.<br/>`;
+        document.body.innerHTML += `O nome da esposa com letras minúsculas: <Strong>${nomeEsposa.toLowerCase()}</Strong>.<br/>`;
+        document.body.innerHTML += `O nome do(a) filho(a) com letras ninúsculas: <Strong>${nomeFilho.toLowerCase()}</Strong>.<br/><br/>`;
+    </script>
+</body>
+</html>

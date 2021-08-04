@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Elementos Flutuantes na prática</title>
+	<meta charset="utf-8">
+	
+	<style type="text/css">
+		body{
+			background: #f4f4f4;
+		}
+		#principal{
+			width: 920px;
+				
+		}
+		.noticia{
+			background: #e5e5e5;
+			padding: 5px;
+			width: 280px;
+			margin: 7px;
+			float: left;
+		}
+		.imagem-galeria{
+			background-color: white;
+			width: 265px;
+			padding: 5px;
+			margin: 15px;
+			float: left;
+		}
+		
+		.clear{
+			clear: both;
+		}
+	</style>
+
+</head>
+	<body>
+		<div id="principal">  <!-- Início do bloco principal ----------------------->
+			<div>
+				<div class="noticia"> <!-- Início do bloco de notícias ------------->
+				<h2>Casa do Governador pega Fogo</h2>
+					<p>
+						Segundo os visinhos, a casa do governador pegou fogo logo depois de 11:00. Foram visto 2 suspeitos no carro preto próximo de sua residência 8:00 procurando saber onde o governador mora...
+					</p>
+					<a href="#">Leia mais</a>
+				</div>
+				<div class="noticia">
+				<h2>Médico paga Salário Errado a Secretária</h2>
+					<p>
+						Segundo os visinhos do consultório do médico José cardoso, ele pensou que tivesse pagando o salário de R$ 1.200,00. Mas no final da tarde, ao fazer o pagamento ao fornecedor, descobriu que estava sem dinheiro...
+					</p>
+					<a href="#">Leia mais</a>
+				</div>
+				<div class="noticia">
+				<h2>Bêbado faz Barulho na Frente do Hospital</h2>
+					<p>
+						Segundo os funcionáros do Hospital São Lucas, o homem chamado José Carlos estava totalmente alcoolizado e muito agitado, pois estava querendo fumar um cigarro da marca...
+					</p>
+					<a href="#">Leia mais</a>			
+				</div>							
+			</div>	<!-- Fím do bloco das notícias ------------------------------>	
+
+			<div class="clear"></div> <!-- Fim do fluxo flutuante das notícias -->
+
+			<div> <!-- Início da galeria de fotos ------------------------------->
+				<div class="imagem-galeria">
+					<img src="imagens/imagem1.png">
+					<p>Essa foto rodou a internet devido a atenção dada pelo soldado a essas crianças no Iraque.</p>
+				</div>
+				<div class="imagem-galeria">
+					<img src="imagens/imagem2.png">
+					<p>Saiba como superar a solidão e a depressão devido ao distanciamento social provocada pela covid-19</p>
+				</div>
+				<div class="imagem-galeria">
+					<img src="imagens/imagem3.png">
+					<p>Devido ao desemprego, um empresário iraquiano residente em São Paulo pede comida nas ruas na cidade.</p>
+				</div>
+				<div class="imagem-galeria">
+					<img src="imagens/imagem4.png">
+					<p>Essas 2 garotinhas fazem sucesso como modelo, postando as próprias roupas.</p>
+				</div>
+				<div class="imagem-galeria">
+					<img src="imagens/imagem5.png">
+					<p>Saiba como tirar as melhores fotos do celular e ainda sair bem nas fotos.</p>
+				</div>
+			</div> <!-- Fim da galeria de fotos ------------------------------------>
+		</div>	<!-- Fim do bloco principal ---------------------------------------->
+	</body>
+</html>
