@@ -1,0 +1,11 @@
+figure,
+img,
+p {
+	max-width: 100%;
+}
+fieldset {
+  	max-width: 100%
+    overflow: hidden;
+    display: block;
+   max-width: auto;
+}
