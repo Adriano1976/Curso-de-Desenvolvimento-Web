@@ -1,0 +1,176 @@
+body {
+  color: #333333;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 940px;
+}
+
+h1 {
+  margin-left: 50px;
+}
+
+#titulo {
+  background-image: url(../img/sobre-background.jpg);
+  padding: 0;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  text-align: center;
+  font-size: 20px;
+}
+
+header img {
+  background-position: center;
+  height: 400px;
+	width: 940px;
+	padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+nav{
+  text-align:center;
+  width: 940px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+nav ul{
+  font-size: 16px;
+  padding: 0;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline;
+  margin: 5px 5px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	background-color: rgb(139, 71, 38);
+	color: rgb(255, 211, 155);
+	padding: 12px 12px;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+nav ul li a:hover {
+  border-style: solid;
+  background-color: #ff6600;
+}
+
+figure {
+  background-color: #F2EDED;
+  border: 1px solid #CCC;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+figcaption {
+  font-style: italic;
+  margin-top: 1px;
+  font-size: 13px;
+}
+
+p{
+  padding: 0  35px;
+  text-indent: 15px;
+}
+
+#constituicao-do-priorado {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+#livro, #opus-dai, #templario1, #constituicao-do-priorado {
+  margin-left: 35px;
+  margin-right: 35px;
+  float:right;
+  padding-bottom: 5px;
+}
+
+#santa-ceia, #concilio-niceia, #santo-graal, #padre{
+  margin-left: auto;
+  margin-right: 35px;
+  float: right;
+  padding-bottom: 5px;
+  margin-left: 10px;
+}
+
+#constantino, #maria-madalena, #maria-madalena1, #templario2, #livro2{
+  margin-left: auto;
+  margin-right: 35px;
+  float:left;
+  padding-bottom: 5px;
+  margin-left: 35px;
+  margin-right: 20px;
+}
+
+#livros {
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+  padding-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ hr {
+  width:inherit;
+  border-bottom: 5px solid #333333;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-image: url(../img/fundo-rodape.png);
+  clear: both;
+  padding: 10px 10px;
+  width: 920px;
+  padding-bottom: 10px;
+}
+
+footer .container {
+  position: relative;
+}
+
+.social {
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+
+.social li {
+  float: left;
+  margin-left: 15px;
+}
+
+.social li a {
+  height: 32px;
+  width: 32px;
+  display: block;
+  text-indent: -9999px;
+  margin-bottom: 25px;
+}
+
+.social a[href*="facebook.com"] {
+  background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+  background-image: url(../img/twitter.png);
+}
+
+.social a[href*="plus.google.com"] {
+  background-image: url(../img/googleplus.png);
+}
+
+footer div img {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+footer div ul {
+  width: 185px;
+}
